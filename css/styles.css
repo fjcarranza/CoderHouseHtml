@@ -1,0 +1,31 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header {
+    background-color: #966517;
+    color: #E3AA4F;
+}
+
+nav {
+    background-color: #4F9EE3;
+}
+
+
+
+p {
+    color: rgb(29, 67, 17);
+}
+
+footer {
+    background-color: #266296;
+    color: #73BEFF;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,18 @@
+
+Estructura Html
+https://developer.mozilla.org/es/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure
+
+Font - Icos
+https://fonts.google.com/
+https://fonts.google.com/icons
+
+
+Efecto Parallax Esta Excelente
+https://codepen.io/mablen/pen/beKPNB
+
+
+Paletas de Colores
+https://www.instagram.com/coolors.co/
+https://coolors.co/8aea92-80ada0-5f5566-33202a-000000
+https://color.adobe.com/es/create/color-wheel/
+https://colorhunt.co/palette/147323
