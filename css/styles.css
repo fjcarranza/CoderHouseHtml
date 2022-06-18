@@ -491,3 +491,15 @@ ul{
 	    justify-content:center;
     }
 }
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.botones input{
+    padding: 10px;
+    border-radius: 5px;
+    
+}
