@@ -1,12 +1,20 @@
 *{
-    
     box-sizing: border-box;
 }
 .wrapper{
     width: 90%;
-    max-width: 1000px;
+    /* max-width: 1000px; */
     margin: auto;
     overflow: hidden;
+}
+.wrapper p{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    width: auto;
+    
 }
 .logo{
     box-sizing: border-box;
@@ -187,11 +195,9 @@ header{
     margin-bottom: 20px;
     border-bottom: 1px solid #e5e5e5;
 }
-footer{
-    width: 100%;
-    overflow: hidden;
-    background:#383838;
-    margin-bottom: 10px;
+.footer-color{
+    background-color: #1c2331;
+    margin: 0px;
 }
 
 
@@ -232,57 +238,20 @@ a{
 }
 
 
-img{
-    width: 1000px;
-    height: auto;
-    border-radius: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 .notas{
-    width: 960px;
+    width: 50vw;
     height: auto;
     border-radius: 30px;
-    background: #353232;
-    color: #999090;
+    /* background:#ff0099; */
+    background:#ff0099;
+    color: #ffffff;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
 
 }
 
-.f-instagram{
-    color: rgb(245, 245, 245);
 
-}
-.f-facebook{
-    color: rgb(51,119, 242);
-}
-.f-linkedin{
-    color: rgb(40,102, 194);
-}
-.f-youtube{
-    color: rgb(250, 34, 0);
-}
-
-footer div h3{
-    margin: 20px;
-    color: #ffffff;
-
-} 
-
-footer div .redes{
-    display: flex;
-    list-style: none;
-}
-footer div ul .redItem{
-    margin: 10px;
-}
-
-.footer .redes h2{
-    display: block;
-}
 
 ul{
     list-style: none;
@@ -290,14 +259,9 @@ ul{
 
 .footer{
     width: 100%;
-	max-width: 1200px;
-    margin: auto; 
-	padding: 15px;
-
-    /* grid */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+ 
+}
+    
 }
 .foot-a{
     border-radius: 30px;
@@ -338,7 +302,11 @@ ul{
 
 
 
+.imagenes{
+    width: 50vw;
+    height: auto;
 
+}
 
 /* Pagina Clientes */
 .main-clientes {
@@ -351,7 +319,7 @@ ul{
 
 .clientes {
 	width: 100%;
-	max-width: 1200px;
+	/* max-width: 1200px; */
     margin: auto; 
 	padding: 15px;
 
@@ -397,23 +365,79 @@ ul{
 .bimbo{background-image: url('../Img/6-m.jpg')}
 .cosquin{background-image: url('../Img/7-m.jpg')}
 
+
+
+
+
+.card-face{
+    padding: 20px;
+    margin: 20px;
+    width: 50vw;
+}
+.articulos-portfolios{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+
+.footer-cabecera{
+width: 100%;
+background-color: #ff0099;
+
+}
+.footer-copy{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.footer-line-link{
+    width: 50px; 
+    background-color: #7c4dff; 
+    height: 2px;
+}
+.footer-line-contacto{
+    width: 90px; 
+    background-color: #7c4dff; 
+    height: 2px;
+}
+
+
+.footer-logo{
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+    font-size: 48px;
+    background: linear-gradient(to right, #ff0099, #0004f0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
+}
+/*
+
+En el Responsive mode
+
+
+*/
+
 @media screen and (max-width: 1150px) {
-
-/* .wrapper nav ul{
-    display: none;
-
-}    */
 .wrapper{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-items: center;
+}
+.wrapper p{
+    width: 100%;
 }
 .menuResponsive{
     display: none;
 }
 
-    
     
 }
 @media screen and (max-width: 900px) {
@@ -430,64 +454,32 @@ ul{
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
-    .footer{
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-        justify-content:center;
-        text-align: center;
-    }
-    .footer-a{
-        display: flex;
-	    flex-direction: column;
-        justify-content:center;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }.footer-b{
-        margin: 0;
-        display: flex;
-	    flex-direction: column;
-        justify-content:center;
-	    text-align: center;
-    }
-    .footer-c{
-        display: flex;
-	    flex-direction: column;
-	    justify-content:center;
-        text-align: center;
-    }
 }
+
+@media screen and (max-width: 767px) {
+    .footer-cont-log{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .footer-logo{
+        box-sizing: border-box;
+        font-family: 'Exo', sans-serif;
+        font-size: 48px;
+        background: linear-gradient(to right, #ff0099, #0004f0);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        }
+    }
 
 @media screen and (max-width: 600px) {
     .clientes-campanias{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
-    }
-
-    .footer{
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-        justify-content:center;
-    }
-    .footer-a{
-        display: flex;
-	    flex-direction: column;
-        justify-content:center;
-        margin: 0;
-	    
-    }.footer-b{
-        margin: 0;
-        display: flex;
-	    flex-direction: column;
-        justify-content:center;
-	    
-    }
-    .footer-c{
-        display: flex;
-	    flex-direction: column;
-	    justify-content:center;
     }
 }
