@@ -406,7 +406,7 @@
 }
 
 .main-contacto{
-    
+    background: #212025;
     text-align: center;
     padding: 50px;
     margin-top: 0;
@@ -418,6 +418,12 @@
 .main-contacto h2{
     margin-top: 100px;
     margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+.main-contacto form{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
 }
 
 .boton{
@@ -542,7 +548,6 @@ ul{
  
 }
     
-}
 .foot-a{
     border-radius: 30px;
 	color: #fff;
